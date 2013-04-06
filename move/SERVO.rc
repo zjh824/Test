@@ -1,0 +1,206 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resrc1.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "resource.h"
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SERVO_DIALOG DIALOGEX 0, 0, 424, 261
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SERVO"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Exit",IDOK,351,223,55,26
+    PUSHBUTTON      "Servo ON",IDC_SVON,325,81,39,14
+    PUSHBUTTON      "Servo OFF",IDC_SVOFF,369,81,39,14
+    PUSHBUTTON      "R_Move+",IDC_PRMOVE,315,22,41,12
+    PUSHBUTTON      "R_Move-",IDC_MRMOVE,363,22,41,12
+    EDITTEXT        IDC_POS,58,20,51,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IOSTS,78,50,32,12,ES_AUTOHSCROLL
+    LTEXT           "Position :",IDC_STATIC,24,22,30,9
+    LTEXT           "I/O Status :",IDC_STATIC,34,52,40,10
+    EDITTEXT        IDC_MSTS,87,34,22,12,ES_AUTOHSCROLL
+    LTEXT           "Motion Status:",IDC_STATIC,37,38,49,9
+    PUSHBUTTON      "Home",IDC_HOME,371,100,39,14
+    PUSHBUTTON      "Stop",IDC_STOP,343,39,38,13
+    PUSHBUTTON      "Cut",IDC_CUT,325,100,39,14
+    GROUPBOX        "Move Test",IDC_STATIC,305,7,110,50
+    GROUPBOX        "Status ",IDC_STATIC,9,9,131,59
+    COMBOBOX        IDC_COMBO1,181,21,48,35,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Choose Axis :",IDC_STATIC,172,11,50,9
+    LTEXT           "Int. Count",IDC_STATIC,170,43,21,9
+    EDITTEXT        IDC_INT,195,41,36,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Set Evt INT",IDC_BUTTON_EVTINT,81,129,61,20
+    PUSHBUTTON      "Set Err INT",IDC_BUTTON_ERRINT,9,127,61,20
+    EDITTEXT        IDC_EDIT_EVTINT,83,96,58,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ERRINT,11,96,58,15,ES_AUTOHSCROLL
+    GROUPBOX        "Set INT",IDC_STATIC,6,77,141,83
+    GROUPBOX        "Set Compare",IDC_STATIC,172,77,138,87
+    PUSHBUTTON      "Set Compare",IDC_BUTTON_COMPARE,183,129,57,22
+    EDITTEXT        IDC_EDIT_INTERVAL,185,108,69,18,ES_AUTOHSCROLL
+    LTEXT           "interval",IDC_STATIC,183,91,80,10
+    PUSHBUTTON      "init ljv",IDC_BUTTON_INTLJV,9,180,61,26
+    PUSHBUTTON      "Eth Open",IDC_BUTTON_ETHOPEN,79,179,67,29
+    PUSHBUTTON      "Trig Laser",IDC_BUTTON_TRIG,155,182,65,23
+    PUSHBUTTON      "Get Value",IDC_BUTTON_GETVALUE,11,223,58,25
+    EDITTEXT        IDC_EDIT_VALUE,83,223,127,27,ES_AUTOHSCROLL
+    PUSHBUTTON      "ZERO",IDC_BUTTON_ZERO,254,38,42,17
+    EDITTEXT        IDC_EDIT_COMP,183,62,56,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Button2",IDC_BUTTON2,247,133,50,14
+    PUSHBUTTON      "Auto",IDC_BUTTON1,317,130,43,19
+    PUSHBUTTON      "GetStorage",IDC_BUTTON_GETDATA,233,182,54,24
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "SERVO MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "SERVO\0"
+            VALUE "LegalCopyright", "Copyright (C) 1900\0"
+            VALUE "OriginalFilename", "SERVO.EXE\0"
+            VALUE "ProductName", "SERVO Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO MOVEABLE PURE 
+BEGIN
+    IDD_SERVO_DIALOG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 260
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resrc1.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""resource.h""\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SERVO_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO1, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO1, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO1, 0x403, 2, 0
+0x0033, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About SERVO..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

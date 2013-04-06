@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SERVO - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ZDH-XM~1\LOCALS~1\Temp\RSPDB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/SERVO.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"E:\project_bak\move\SERVODlg.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\ZDH-XM~1\LOCALS~1\Temp\RSPDB.tmp"" 
+Creating command line "link.exe 8164.lib LJV7_IF.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SERVO.pdb" /debug /machine:I386 /out:"Debug/SERVO.exe" /pdbtype:sept  .\Debug\SERVO.obj .\Debug\SERVODlg.obj .\Debug\StdAfx.obj .\Debug\SERVO.res "
+<h3>Output Window</h3>
+Compiling...
+SERVODlg.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/SERVO.bsc"  .\Debug\StdAfx.sbr .\Debug\SERVO.sbr .\Debug\SERVODlg.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+SERVO.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
